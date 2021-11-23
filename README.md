@@ -2,7 +2,7 @@
 
 ## Endpoint and Response
 
-- endpoint: `'/api/fileanalyze'`
+- endpoint: `'/api/fileanalyse'`
 - response 👇
 
 ```js
