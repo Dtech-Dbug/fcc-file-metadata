@@ -27,6 +27,23 @@ const fileDataSchema = new mongoose.Schema({
 
 - [multer](https://www.npmjs.com/package/multer): for handling file uploading.
 
+**Note:**You can add more fields to the response. Check out the what multer does by attaching a file attr. to the request object.
+
+- The file attr. is also an object w/ the following attributes/properties 👇
+
+```js
+{
+  fieldname: 'upfile',
+  originalname: 'icon',
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: 'uploads/',
+  filename: '2927e6dfdacfcec4eece9fec28865e84',
+  path: 'uploads/2927e6dfdacfcec4eece9fec28865e84',
+  size: 1332
+}
+```
+
 ---
 
 <details>
